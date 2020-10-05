@@ -1,16 +1,31 @@
 ### Hi there 👋
 
-<!--
-**nanato12/nanato12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm nanato12.
 
-Here are some ideas to get you started:
+## Skills
+### Language
+- Python
+- PHP
+- Java
+- C
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Framework
+- Django
+- Flask
+- Laravel
+
+### Other
+- LINE Official Bot (Python, PHP)
+- LINE Unofficial Bot (Python)
+- Jailbreak Tweak dev (Objective-C)
+- Scraping (Python)
+- Crawling (Python)
+
+### Languages
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=nanato12&layout=compact&hide_title=true)
+
+### GitHub activity
+![](https://github-readme-stats.vercel.app/api?username=nanato12&show_icons=true&count_private=true&hide=contribs&include_all_commits=true&hide_title=true)
+
+### Week activity
+![](https://github-readme-stats.vercel.app/api/wakatime?username=nanato12&hide_title=true)
