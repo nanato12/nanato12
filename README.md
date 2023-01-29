@@ -20,8 +20,8 @@ I'm nanato12.
 
 ### GitHub activity
 
-![stats](https://github-readme-stats.vercel.app/api?username=nanato12&show_icons=true&count_private=true&hide=contribs&include_all_commits=true&hide_title=true)
+![stats](https://github-readme-stats.vercel.app/api?username=nanato12&show_icons=true&count_private=true&include_all_commits=true&bg_color=30,e96443,904e95&text_color=fff&icon_color=5aff19&title_color=ffd400)
 
 ### Week activity
 
-![week](https://github-readme-stats.vercel.app/api/wakatime?username=nanato12&hide_title=true)
+![week](https://github-readme-stats.zohan.tech/api/wakatime?username=nanato12&hide_title=true)
