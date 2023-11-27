@@ -24,4 +24,4 @@ I'm nanato12.
 
 ### Week activity
 
-![week](https://github-readme-stats.zohan.tech/api/wakatime?username=nanato12&hide_title=true)
+![week](https://github-readme-stats.vercel.app/api/wakatime?username=nanato12&hide_title=true)
