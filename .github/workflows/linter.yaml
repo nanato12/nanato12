@@ -11,7 +11,7 @@ on:
       - "**.py"
 
 jobs:
-  python lint:
+  python-lint:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -50,7 +50,7 @@ jobs:
           isort -V
           isort --check-only .
 
-  markdown lint:
+  markdown-lint:
     runs-on: ubuntu-latest
 
     steps:
