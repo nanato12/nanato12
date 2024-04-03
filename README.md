@@ -1,4 +1,6 @@
 # Hi 👋, I'm nanato12
+  
+![https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=discord_old_blurple](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=discord_old_blurple) ![https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=discord_old_blurple&exclude=](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=discord_old_blurple&exclude=) ![https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=discord_old_blurple&exclude=](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=discord_old_blurple&exclude=) ![https://github-readme-stats.vercel.app/api/wakatime?username=nanato12&hide_title=true](https://github-readme-stats.vercel.app/api/wakatime?username=nanato12&hide_title=true)  
 
 ## Skills (Order by years of experience)
 
@@ -24,4 +26,12 @@
 
 ### Tool
   
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/goland/goland-original.svg" alt="goland" width="40" height="40" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="postman" width="40" height="40" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swagger/swagger-original.svg" alt="swagger" width="40" height="40" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/openapi/openapi-original.svg" alt="openapi" width="40" height="40" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/goland/goland-original.svg" alt="goland" width="40" height="40" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="postman" width="40" height="40" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swagger/swagger-original.svg" alt="swagger" width="40" height="40" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/openapi/openapi-original.svg" alt="openapi" width="40" height="40" />  
+
+## OSS Contributions
+
+- [line/line-bot-sdk-python](https://github.com/line/line-bot-sdk-python/pulls?q=is%3Apr+is%3Aclosed+author%3Ananato12)
+- [line/line-bot-sdk-php](https://github.com/line/line-bot-sdk-php/pulls?q=is%3Apr+is%3Aclosed+author%3Ananato12)
+- [line/line-bot-sdk-go](https://github.com/line/line-bot-sdk-go/pulls?q=is%3Apr+is%3Aclosed+author%3Ananato12)
+- [line/line-bot-sdk-nodejs](https://github.com/line/line-bot-sdk-nodejs/pulls?q=is%3Apr+is%3Aclosed+author%3Ananato12)
+- [line/line-openapi](https://github.com/line/line-openapi/pulls?q=is%3Apr+is%3Aclosed+author%3Ananato12)
