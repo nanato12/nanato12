@@ -3,6 +3,7 @@ line-length = 79
 exclude = '''
 (
     venv
+    | node_modules
     | .mypy_cache
 )
 '''
@@ -10,7 +11,7 @@ exclude = '''
 [tool.isort]
 multi_line_output = 3
 include_trailing_comma = true
-skip = ["^venv/*"]
+skip = ["venv", "node_modules"]
 
 [tool.mypy]
 explicit_package_bases = true
@@ -20,4 +21,4 @@ disallow_untyped_calls = true
 disallow_untyped_defs = true
 ignore_missing_imports = true
 follow_imports = 'skip'
-exclude = ['^venv/*']
+exclude = ['^venv/*', "^node_modules/*"]
