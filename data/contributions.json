@@ -1,0 +1,22 @@
+[
+  {
+    "username": "line",
+    "repository": "line-bot-sdk-python"
+  },
+  {
+    "username": "line",
+    "repository": "line-bot-sdk-php"
+  },
+  {
+    "username": "line",
+    "repository": "line-bot-sdk-go"
+  },
+  {
+    "username": "line",
+    "repository": "line-bot-sdk-nodejs"
+  },
+  {
+    "username": "line",
+    "repository": "line-openapi"
+  }
+]
