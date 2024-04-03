@@ -1,0 +1,141 @@
+{
+  "Programming Language": [
+    {
+      "name": "python",
+      "path": "python-original.svg"
+    },
+    {
+      "name": "php",
+      "path": "php-original.svg"
+    },
+    {
+      "name": "go",
+      "path": "go-original.svg"
+    },
+    {
+      "name": "rust",
+      "path": "rust-original.svg"
+    },
+    {
+      "name": "c",
+      "path": "c-original.svg"
+    },
+    {
+      "name": "ruby",
+      "path": "ruby-original.svg"
+    }
+  ],
+  "Web Flamework": [
+    {
+      "name": "laravel",
+      "path": "laravel-original.svg"
+    },
+    {
+      "name": "echo",
+      "path": "img/logo-light.svg",
+      "host": "https://echo.labstack.com",
+      "width": "160"
+    },
+    {
+      "name": "flask",
+      "path": "flask-original.svg"
+    },
+    {
+      "name": "django",
+      "path": "django-plain.svg"
+    },
+    {
+      "name": "actix_web",
+      "path": "img/logo.png",
+      "host": "https://actix.rs/"
+    }
+  ],
+  "Database": [
+    {
+      "name": "mysql",
+      "path": "mysql-original.svg"
+    },
+    {
+      "name": "postgresql",
+      "path": "postgresql-original.svg"
+    },
+    {
+      "name": "redis",
+      "path": "redis-original.svg"
+    }
+  ],
+  "Cloud Service": [
+    {
+      "name": "googlecloud",
+      "path": "googlecloud-original.svg"
+    },
+    {
+      "name": "amazonwebservices",
+      "path": "amazonwebservices-original-wordmark.svg"
+    },
+    {
+      "name": "azure",
+      "path": "azure-original.svg"
+    }
+  ],
+  "DevOps": [
+    {
+      "name": "docker",
+      "path": "docker-original.svg"
+    },
+    {
+      "name": "git",
+      "path": "git-original.svg"
+    },
+    {
+      "name": "github",
+      "path": "github-original.svg"
+    },
+    {
+      "name": "githubactions",
+      "path": "githubactions-original.svg"
+    },
+    {
+      "name": "githubcodespaces",
+      "path": "githubcodespaces-original.svg"
+    },
+    {
+      "name": "firebase",
+      "path": "firebase-original.svg"
+    },
+    {
+      "name": "gitlab",
+      "path": "gitlab-original.svg"
+    },
+    {
+      "name": "codecov",
+      "path": "codecov-plain.svg"
+    },
+    {
+      "name": "algolia",
+      "path": "algolia-original.svg"
+    }
+  ],
+  "Tool": [
+    {
+      "name": "vscode",
+      "path": "vscode-original.svg"
+    },
+    {
+      "name": "goland",
+      "path": "goland-original.svg"
+    },
+    {
+      "name": "postman",
+      "path": "postman-original.svg"
+    },
+    {
+      "name": "swagger",
+      "path": "swagger-original.svg"
+    },
+    {
+      "name": "openapi",
+      "path": "openapi-original.svg"
+    }
+  ]
+}
