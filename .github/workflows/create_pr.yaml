@@ -1,0 +1,37 @@
+name: Create a pull request
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  readme-change-detection:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: make init
+
+      - name: generate README.md
+        run: make generate
+
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Update README.md
+          delete-branch: true
+          title: Update README.md
+          reviewers: nanato12
