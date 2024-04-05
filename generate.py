@@ -21,14 +21,6 @@ for k, skills in Skill.from_json_file("./data/skills.json").items():
     m.new_line(" ".join([skill.html_tag for skill in skills]))
     m.new_line()
 
-m.new_header(level=2, title="OSS Contributions")
-m.new_list(
-    [
-        m.new_inline_link(p.author_pr_url, f"{p.username}/{p.repository}")
-        for p in Contribution.from_json_file("./data/contributions.json")
-    ]
-)
-
 m.new_header(level=2, title="GitHub Summaries")
 m.new_line(
     " ".join(
@@ -36,6 +28,16 @@ m.new_line(
     )
 )
 m.new_line()
+
+m.new_header(level=2, title="OSS Contributions")
+m.new_line(
+    " ".join(
+        [
+            p.markdown
+            for p in Contribution.from_json_file("./data/contributions.json")
+        ]
+    )
+)
 
 with open(TARGET_MD_FILE_PATH, "wt") as f:
     f.write(m.get_md_text().strip() + "\n")
