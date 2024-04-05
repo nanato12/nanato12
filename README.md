@@ -1,6 +1,6 @@
 # Hi 👋, I'm nanato12
   
-[![github views](https://komarev.com/ghpvc/?username=nanato12&style=flat)](https://github.com/nanato12) [![Twitter (@nanato12_dev)](https://img.shields.io/twitter/follow/nanato12_dev?style=flat&logoColor=blue&label=X%20follow%20%40nanato12_dev&color=blue)](https://qiita.com/nanato12) [![qiita posts](https://qiita-badge.apiapi.app/s/nanato12/posts.svg)](https://qiita.com/nanato12) [![qiita contributions](https://qiita-badge.apiapi.app/s/nanato12/contributions.svg)](https://qiita.com/nanato12) [![qiita followers](https://qiita-badge.apiapi.app/s/mikkame/followers.svg)](https://qiita.com/nanato12)  
+[![github views](https://komarev.com/ghpvc/?username=nanato12&style=flat)](https://github.com/nanato12) [![github followers](https://img.shields.io/github/followers/nanato12?style=flat&logo=github)](https://github.com/nanato12) [![Twitter (@nanato12_dev)](https://img.shields.io/twitter/follow/nanato12_dev?style=flat&logo=x&color=blue)](https://qiita.com/nanato12) [![qiita posts](https://qiita-badge.apiapi.app/s/nanato12/posts.svg)](https://qiita.com/nanato12) [![qiita contributions](https://qiita-badge.apiapi.app/s/nanato12/contributions.svg)](https://qiita.com/nanato12)  
 
 ## Skills (Order by years of experience)
 
