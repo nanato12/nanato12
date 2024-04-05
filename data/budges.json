@@ -5,8 +5,13 @@
     "destination": "https://github.com/nanato12"
   },
   {
+    "alt": "github followers",
+    "icon_url": "https://img.shields.io/github/followers/nanato12?style=flat&logo=github",
+    "destination": "https://github.com/nanato12"
+  },
+  {
     "alt": "Twitter (@nanato12_dev)",
-    "icon_url": "https://img.shields.io/twitter/follow/nanato12_dev?style=flat&logoColor=blue&label=X%20follow%20%40nanato12_dev&color=blue",
+    "icon_url": "https://img.shields.io/twitter/follow/nanato12_dev?style=flat&logo=x&color=blue",
     "destination": "https://qiita.com/nanato12"
   },
   {
@@ -17,11 +22,6 @@
   {
     "alt": "qiita contributions",
     "icon_url": "https://qiita-badge.apiapi.app/s/nanato12/contributions.svg",
-    "destination": "https://qiita.com/nanato12"
-  },
-  {
-    "alt": "qiita followers",
-    "icon_url": "https://qiita-badge.apiapi.app/s/mikkame/followers.svg",
     "destination": "https://qiita.com/nanato12"
   }
 ]
