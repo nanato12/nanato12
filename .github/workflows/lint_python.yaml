@@ -1,4 +1,4 @@
-name: linter
+name: python linter
 
 on:
   pull_request:
@@ -49,14 +49,3 @@ jobs:
         run: |
           isort -V
           isort --check-only .
-
-  markdown-lint:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: DavidAnson/markdownlint-cli2-action@v15
-        with:
-          globs: |
-            README.md
