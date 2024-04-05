@@ -17,6 +17,6 @@ class Budge(BaseModel):
     def markdown(self) -> str:
         m = MdUtils("")
 
-        return m.new_inline_link(
+        return m.new_inline_link(  # type: ignore [no-any-return]
             self.destination, m.new_inline_image(self.alt, self.icon_url)
         )

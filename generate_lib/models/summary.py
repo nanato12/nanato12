@@ -15,4 +15,4 @@ class Summary(BaseModel):
     def markdown(self) -> str:
         m = MdUtils("")
 
-        return m.new_inline_image(self.url, self.url)
+        return m.new_inline_image(self.url, self.url)  # type: ignore [no-any-return]
