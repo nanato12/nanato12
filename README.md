@@ -1,6 +1,6 @@
 # Hi 👋, I'm nanato12
   
-![https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=discord_old_blurple](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=discord_old_blurple) ![https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=discord_old_blurple&exclude=](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=discord_old_blurple&exclude=) ![https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=discord_old_blurple&exclude=](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=discord_old_blurple&exclude=)  
+[![github views](https://komarev.com/ghpvc/?username=nanato12&style=flat)](https://github.com/nanato12) [![Twitter (@nanato12_dev)](https://img.shields.io/twitter/follow/nanato12_dev?style=flat&logoColor=blue&label=X%20follow%20%40nanato12_dev&color=blue)](https://qiita.com/nanato12) [![qiita posts](https://qiita-badge.apiapi.app/s/nanato12/posts.svg)](https://qiita.com/nanato12) [![qiita contributions](https://qiita-badge.apiapi.app/s/nanato12/contributions.svg)](https://qiita.com/nanato12) [![qiita followers](https://qiita-badge.apiapi.app/s/mikkame/followers.svg)](https://qiita.com/nanato12)  
 
 ## Skills (Order by years of experience)
 
@@ -35,3 +35,7 @@
 - [line/line-bot-sdk-go](https://github.com/line/line-bot-sdk-go/pulls?q=is%3Apr+is%3Aclosed+author%3Ananato12)
 - [line/line-bot-sdk-nodejs](https://github.com/line/line-bot-sdk-nodejs/pulls?q=is%3Apr+is%3Aclosed+author%3Ananato12)
 - [line/line-openapi](https://github.com/line/line-openapi/pulls?q=is%3Apr+is%3Aclosed+author%3Ananato12)
+
+## GitHub Summaries
+  
+![https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=discord_old_blurple](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=discord_old_blurple) ![https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=discord_old_blurple&exclude=](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=discord_old_blurple&exclude=) ![https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=discord_old_blurple&exclude=](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=discord_old_blurple&exclude=) ![https://github-profile-trophy.vercel.app/?username=nanato12&theme=nord](https://github-profile-trophy.vercel.app/?username=nanato12&theme=nord) ![https://github-readme-streak-stats.herokuapp.com/?user=nanato12](https://github-readme-streak-stats.herokuapp.com/?user=nanato12)

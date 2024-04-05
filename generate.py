@@ -1,20 +1,17 @@
-import json
-
 from mdutils.mdutils import MdUtils
 
+from generate_lib.models.budge import Budge
 from generate_lib.models.contribution import Contribution
 from generate_lib.models.skill import Skill
+from generate_lib.models.summary import Summary
 
 TARGET_MD_FILE_PATH = "README.md"
 
 m = MdUtils(TARGET_MD_FILE_PATH, title="")
 m.new_header(level=1, title="Hi 👋, I'm nanato12")
 
-with open("./data/summaries.json") as f:
-    summaries: list[str] = json.load(f)
-
 m.new_line(
-    " ".join([m.new_inline_image(summary, summary) for summary in summaries])
+    " ".join([b.markdown for b in Budge.from_json_file("./data/budges.json")])
 )
 m.new_line()
 
@@ -31,6 +28,14 @@ m.new_list(
         for p in Contribution.from_json_file("./data/contributions.json")
     ]
 )
+
+m.new_header(level=2, title="GitHub Summaries")
+m.new_line(
+    " ".join(
+        [s.markdown for s in Summary.from_json_file("./data/summaries.json")]
+    )
+)
+m.new_line()
 
 with open(TARGET_MD_FILE_PATH, "wt") as f:
     f.write(m.get_md_text().strip() + "\n")
