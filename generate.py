@@ -96,43 +96,13 @@ def stats() -> str:
         f"?username={USERNAME}&theme={THEME}&hide_border=true"
         "&layout=compact&langs_count=8"
     )
-    streak = (
-        "https://github-readme-streak-stats.herokuapp.com/"
-        f"?user={USERNAME}&theme={THEME}&hide_border=true"
-    )
-    activity = (
-        "https://github-readme-activity-graph.vercel.app/graph"
-        f"?username={USERNAME}&theme=tokyo-night"
-        "&hide_border=true&area=true"
-    )
 
     summary_urls = [
         s.url for s in Summary.from_json_file("./data/summaries.json")
     ]
     trophy_url = next((u for u in summary_urls if "trophy" in u), "")
-    summary_cards = [u for u in summary_urls if "trophy" not in u]
-
-    def img(url: str) -> str:
-        return f'<img src="{url}" alt="summary" />' if url else ""
-
-    summary_rows = []
-    for i in range(0, len(summary_cards), 2):
-        left = img(summary_cards[i])
-        right = img(summary_cards[i + 1] if i + 1 < len(summary_cards) else "")
-        summary_rows.append(
-            "  <tr>\n"
-            f"    <td>{left}</td>\n"
-            f"    <td>{right}</td>\n"
-            "  </tr>"
-        )
-    summary_table = "\n".join(summary_rows)
-
     trophy_block = (
-        f'<div align="center">\n\n'
-        f'<img src="{trophy_url}" alt="trophy" />\n\n'
-        "</div>\n"
-        if trophy_url
-        else ""
+        f'<img src="{trophy_url}" alt="trophy" />\n\n' if trophy_url else ""
     )
 
     return (
@@ -140,14 +110,8 @@ def stats() -> str:
         '<div align="center">\n\n'
         f'<img src="{stats_card}" alt="stats" height="165" /> '
         f'<img src="{top_langs}" alt="top langs" height="165" />\n\n'
-        f'<img src="{streak}" alt="streak" />\n\n'
-        f'<img src="{activity}" alt="activity graph" />\n\n'
-        "</div>\n\n"
-        "<details>\n"
-        "  <summary><b>More Summary Cards</b></summary>\n\n"
-        f"<table>\n{summary_table}\n</table>\n\n"
-        "</details>\n\n"
         f"{trophy_block}"
+        "</div>\n"
     )
 
 

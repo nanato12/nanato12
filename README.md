@@ -58,30 +58,6 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=nanato12&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="stats" height="165" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nanato12&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="top langs" height="165" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nanato12&theme=tokyonight&hide_border=true" alt="streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nanato12&theme=tokyo-night&hide_border=true&area=true" alt="activity graph" />
-
-</div>
-
-<details>
-  <summary><b>More Summary Cards</b></summary>
-
-<table>
-  <tr>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=tokyonight" alt="summary" /></td>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=tokyonight&exclude=" alt="summary" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=tokyonight&exclude=" alt="summary" /></td>
-    <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nanato12&theme=tokyonight&utcOffset=9" alt="summary" /></td>
-  </tr>
-</table>
-
-</details>
-
-<div align="center">
-
 <img src="https://github-profile-trophy.vercel.app/?username=nanato12&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="trophy" />
 
 </div>
