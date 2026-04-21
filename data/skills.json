@@ -1,141 +1,82 @@
 {
   "Programming Language": [
-    {
-      "name": "python",
-      "path": "python-original.svg"
-    },
-    {
-      "name": "php",
-      "path": "php-original.svg"
-    },
-    {
-      "name": "go",
-      "path": "go-original.svg"
-    },
-    {
-      "name": "rust",
-      "path": "rust-original.svg"
-    },
-    {
-      "name": "c",
-      "path": "c-original.svg"
-    },
-    {
-      "name": "ruby",
-      "path": "ruby-original.svg"
-    }
+    { "name": "python", "skill_icon": "py" },
+    { "name": "php", "skill_icon": "php" },
+    { "name": "go", "skill_icon": "go" },
+    { "name": "rust", "skill_icon": "rust" },
+    { "name": "c", "skill_icon": "c" },
+    { "name": "ruby", "skill_icon": "ruby" }
   ],
   "Web Framework": [
-    {
-      "name": "laravel",
-      "path": "laravel-original.svg"
-    },
+    { "name": "laravel", "skill_icon": "laravel" },
     {
       "name": "echo",
-      "path": "img/logo-light.svg",
-      "host": "https://echo.labstack.com",
-      "width": "160"
+      "badge": { "label": "Echo", "color": "00ADD8", "logo": "go" }
     },
-    {
-      "name": "flask",
-      "path": "flask-original.svg"
-    },
-    {
-      "name": "django",
-      "path": "django-plain.svg"
-    },
+    { "name": "flask", "skill_icon": "flask" },
+    { "name": "django", "skill_icon": "django" },
     {
       "name": "actix_web",
-      "path": "img/logo.png",
-      "host": "https://actix.rs/"
+      "badge": { "label": "Actix", "color": "000000", "logo": "rust" }
     }
   ],
   "Database": [
-    {
-      "name": "mysql",
-      "path": "mysql-original.svg"
-    },
-    {
-      "name": "postgresql",
-      "path": "postgresql-original.svg"
-    },
-    {
-      "name": "redis",
-      "path": "redis-original.svg"
-    }
+    { "name": "mysql", "skill_icon": "mysql" },
+    { "name": "postgresql", "skill_icon": "postgres" },
+    { "name": "redis", "skill_icon": "redis" }
   ],
   "Cloud Service": [
-    {
-      "name": "googlecloud",
-      "path": "googlecloud-original.svg"
-    },
-    {
-      "name": "amazonwebservices",
-      "path": "amazonwebservices-original-wordmark.svg"
-    },
-    {
-      "name": "azure",
-      "path": "azure-original.svg"
-    }
+    { "name": "googlecloud", "skill_icon": "gcp" },
+    { "name": "amazonwebservices", "skill_icon": "aws" },
+    { "name": "azure", "skill_icon": "azure" }
   ],
   "DevOps": [
-    {
-      "name": "docker",
-      "path": "docker-original.svg"
-    },
-    {
-      "name": "git",
-      "path": "git-original.svg"
-    },
-    {
-      "name": "github",
-      "path": "github-original.svg"
-    },
-    {
-      "name": "githubactions",
-      "path": "githubactions-original.svg"
-    },
+    { "name": "docker", "skill_icon": "docker" },
+    { "name": "git", "skill_icon": "git" },
+    { "name": "github", "skill_icon": "github" },
+    { "name": "githubactions", "skill_icon": "actions" },
     {
       "name": "githubcodespaces",
-      "path": "githubcodespaces-original.svg"
+      "badge": {
+        "label": "Codespaces",
+        "color": "09091A",
+        "logo": "github"
+      }
     },
-    {
-      "name": "firebase",
-      "path": "firebase-original.svg"
-    },
-    {
-      "name": "gitlab",
-      "path": "gitlab-original.svg"
-    },
+    { "name": "firebase", "skill_icon": "firebase" },
+    { "name": "gitlab", "skill_icon": "gitlab" },
     {
       "name": "codecov",
-      "path": "codecov-plain.svg"
+      "badge": { "label": "Codecov", "color": "F01F7A", "logo": "codecov" }
     },
     {
       "name": "algolia",
-      "path": "algolia-original.svg"
+      "badge": { "label": "Algolia", "color": "003DFF", "logo": "algolia" }
     }
   ],
   "Tool": [
-    {
-      "name": "vscode",
-      "path": "vscode-original.svg"
-    },
+    { "name": "vscode", "skill_icon": "vscode" },
     {
       "name": "goland",
-      "path": "goland-original.svg"
+      "badge": { "label": "GoLand", "color": "000000", "logo": "goland" }
     },
-    {
-      "name": "postman",
-      "path": "postman-original.svg"
-    },
+    { "name": "postman", "skill_icon": "postman" },
     {
       "name": "swagger",
-      "path": "swagger-original.svg"
+      "badge": {
+        "label": "Swagger",
+        "color": "85EA2D",
+        "logo": "swagger",
+        "logoColor": "black"
+      }
     },
     {
       "name": "openapi",
-      "path": "openapi-original.svg"
+      "badge": {
+        "label": "OpenAPI",
+        "color": "6BA539",
+        "logo": "openapiinitiative"
+      }
     }
   ]
 }

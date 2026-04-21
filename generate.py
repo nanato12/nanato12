@@ -61,12 +61,24 @@ def skills() -> str:
     by_category = Skill.from_json_file("./data/skills.json")
     rows = []
     for category, items in by_category.items():
-        icons = " ".join(s.html_tag for s in items)
+        keys = [s.skill_icon for s in items if s.skill_icon]
+        badges = [s.badge_html for s in items if s.badge]
+
+        cells = []
+        if keys:
+            url = (
+                "https://skillicons.dev/icons"
+                f"?i={','.join(keys)}&theme=dark&perline=10"
+            )
+            cells.append(f'<img src="{url}" alt="{category}" height="48" />')
+        cells.extend(badges)
+        icons_html = " ".join(cells)
+
         rows.append(
             "  <tr>\n"
             f'    <td valign="middle" align="right" width="180">'
             f"<sub><b>{category}</b></sub></td>\n"
-            f'    <td valign="middle">{icons}</td>\n'
+            f'    <td valign="middle">{icons_html}</td>\n'
             "  </tr>"
         )
     table = "\n".join(rows)
