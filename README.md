@@ -42,7 +42,7 @@
   </tr>
   <tr>
     <td valign="middle" align="right" width="180"><sub><b>DevOps</b></sub></td>
-    <td valign="middle"><img src="https://skillicons.dev/icons?i=docker,git,github,actions,firebase,gitlab&theme=dark&perline=10" alt="DevOps" height="48" /> <img src="https://img.shields.io/badge/-Codespaces-09091A?style=for-the-badge&logo=github&logoColor=white" alt="githubcodespaces" height="32" /> <img src="https://img.shields.io/badge/-Codecov-F01F7A?style=for-the-badge&logo=codecov&logoColor=white" alt="codecov" height="32" /> <img src="https://img.shields.io/badge/-Algolia-003DFF?style=for-the-badge&logo=algolia&logoColor=white" alt="algolia" height="32" /></td>
+    <td valign="middle"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,firebase,gitlab&theme=dark&perline=10" alt="DevOps" height="48" /> <img src="https://img.shields.io/badge/-Codespaces-09091A?style=for-the-badge&logo=github&logoColor=white" alt="githubcodespaces" height="32" /> <img src="https://img.shields.io/badge/-Codecov-F01F7A?style=for-the-badge&logo=codecov&logoColor=white" alt="codecov" height="32" /> <img src="https://img.shields.io/badge/-Algolia-003DFF?style=for-the-badge&logo=algolia&logoColor=white" alt="algolia" height="32" /></td>
   </tr>
   <tr>
     <td valign="middle" align="right" width="180"><sub><b>Tool</b></sub></td>

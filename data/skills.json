@@ -34,7 +34,7 @@
     { "name": "docker", "skill_icon": "docker" },
     { "name": "git", "skill_icon": "git" },
     { "name": "github", "skill_icon": "github" },
-    { "name": "githubactions", "skill_icon": "actions" },
+    { "name": "githubactions", "skill_icon": "githubactions" },
     {
       "name": "githubcodespaces",
       "badge": {
