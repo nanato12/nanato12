@@ -1,14 +1,17 @@
 [
   {
-    "url": "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=discord_old_blurple"
+    "url": "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nanato12&theme=tokyonight"
   },
   {
-    "url": "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=discord_old_blurple&exclude="
+    "url": "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nanato12&theme=tokyonight&exclude="
   },
   {
-    "url": "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=discord_old_blurple&exclude="
+    "url": "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nanato12&theme=tokyonight&exclude="
   },
   {
-    "url": "https://github-profile-trophy.vercel.app/?username=nanato12&theme=nord"
+    "url": "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nanato12&theme=tokyonight&utcOffset=9"
+  },
+  {
+    "url": "https://github-profile-trophy.vercel.app/?username=nanato12&theme=tokyonight&no-frame=true&no-bg=true&column=7"
   }
 ]
