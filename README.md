@@ -56,9 +56,9 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nanato12&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="stats" height="165" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nanato12&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="top langs" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nanato12&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=420" alt="top langs" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=nanato12&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="trophy" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nanato12&theme=tokyo-night&hide_border=true&area=true" alt="commit activity" />
 
 </div>
 

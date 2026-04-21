@@ -5,7 +5,6 @@ from pathlib import Path
 from generate_lib.models.budge import Budge
 from generate_lib.models.contribution import Contribution
 from generate_lib.models.skill import Skill
-from generate_lib.models.summary import Summary
 
 TARGET_MD_FILE_PATH = "README.md"
 USERNAME = "nanato12"
@@ -86,31 +85,22 @@ def skills() -> str:
 
 
 def stats() -> str:
-    stats_card = (
-        f"https://github-readme-stats.vercel.app/api?username={USERNAME}"
-        f"&theme={THEME}&show_icons=true&hide_border=true"
-        "&count_private=true&include_all_commits=true"
-    )
     top_langs = (
         "https://github-readme-stats.vercel.app/api/top-langs/"
         f"?username={USERNAME}&theme={THEME}&hide_border=true"
-        "&layout=compact&langs_count=8"
+        "&layout=compact&langs_count=8&card_width=420"
     )
-
-    summary_urls = [
-        s.url for s in Summary.from_json_file("./data/summaries.json")
-    ]
-    trophy_url = next((u for u in summary_urls if "trophy" in u), "")
-    trophy_block = (
-        f'<img src="{trophy_url}" alt="trophy" />\n\n' if trophy_url else ""
+    activity = (
+        "https://github-readme-activity-graph.vercel.app/graph"
+        f"?username={USERNAME}&theme=tokyo-night"
+        "&hide_border=true&area=true"
     )
 
     return (
         "## GitHub Stats\n\n"
         '<div align="center">\n\n'
-        f'<img src="{stats_card}" alt="stats" height="165" /> '
-        f'<img src="{top_langs}" alt="top langs" height="165" />\n\n'
-        f"{trophy_block}"
+        f'<img src="{top_langs}" alt="top langs" />\n\n'
+        f'<img src="{activity}" alt="commit activity" />\n\n'
         "</div>\n"
     )
 
