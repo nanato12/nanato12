@@ -1,46 +1,34 @@
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass
-from urllib.parse import urljoin
+from dataclasses import dataclass, field
+from typing import Optional
 
-from yattag import Doc
-
-DEFAULT_ICON_HOST = (
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/"
-)
+BADGE_BASE = "https://img.shields.io/badge"
 
 
 @dataclass
 class Skill:
     name: str
-    path: str
-    host: str = DEFAULT_ICON_HOST
-    width: str = "40"
-    height: str = "40"
+    skill_icon: Optional[str] = None
+    badge: Optional[dict[str, str]] = field(default=None)
 
     @property
-    def icon_url(self) -> str:
-        if self.host == DEFAULT_ICON_HOST:
-            return urljoin(self.host, f"{self.name}/{self.path}")
-        else:
-            return urljoin(self.host, self.path)
-
-    @property
-    def html_tag(self) -> str:
-        doc, _, _ = Doc().tagtext()
-        doc.stag(
-            "img",
-            src=self.icon_url,
-            alt=self.name,
-            width=self.width,
-            height=self.height,
-        )
-        return doc.getvalue()  # type: ignore [no-any-return]
+    def badge_html(self) -> str:
+        if not self.badge:
+            return ""
+        label = self.badge.get("label", self.name).replace(" ", "%20")
+        color = self.badge.get("color", "grey")
+        logo = self.badge.get("logo", "")
+        logo_color = self.badge.get("logoColor", "white")
+        url = f"{BADGE_BASE}/-{label}-{color}?style=for-the-badge"
+        if logo:
+            url += f"&logo={logo}&logoColor={logo_color}"
+        return f'<img src="{url}" alt="{self.name}" height="32" />'
 
     @classmethod
     def from_json_file(cls, json_path: str) -> dict[str, list[Skill]]:
         with open(json_path) as f:
-            j: dict[str, list[dict[str, str]]] = json.load(f)
+            j: dict[str, list[dict[str, object]]] = json.load(f)
 
-        return {k: [cls(**s) for s in v] for k, v in j.items()}
+        return {k: [cls(**s) for s in v] for k, v in j.items()}  # type: ignore[arg-type]
